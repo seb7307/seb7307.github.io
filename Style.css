@@ -1,0 +1,157 @@
+/* Les différents containers */
+.containerRing
+{
+    margin: 2%;
+}
+
+.containerArmy
+{
+    margin:4%;
+}
+
+.containerContact
+{
+    margin: 2%;
+}
+
+/* Je sais plus mais c'est du CSS */
+.media
+{
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.button
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+}
+
+.nav {
+    border-bottom:solid white 10px;
+}
+
+#carouselExampleControls
+{
+    border-bottom: solid white 10px;
+}
+
+footer
+{
+    background-color: black;
+}
+
+footer a
+{
+    color: white;
+}
+
+.nav nav-link
+{
+    color: white;
+}
+
+/* Css du carroussel */
+
+.carouselExampleControls img
+{
+    width: 100%;
+    border-bottom:solid white 10px;
+}
+
+/* Css du hover Gandalf */
+
+.texteSurvol
+{
+    position: absolute;
+    top: 2%;
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    margin-left: 15%;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.texteSurvol strong
+{
+    color: orange;
+}
+
+.bloc img
+{
+    opacity: 0.5;
+}
+
+.bloc img:hover
+{
+    opacity: 1;
+}
+
+.bloc img:hover + .texteSurvol
+{
+    display: none;
+}
+
+/* Css du Dead */
+
+.textemort
+{
+    position: absolute;
+    top: 35%;
+    font-family: arial;
+    text-align: center;
+    margin-left: 25%;
+    text-align: justify;
+    font-size: 40px;
+
+}
+
+.bloc img:hover + .textemort
+{
+    display: none;
+}
+
+/* Mise en forme des titres */
+
+h2
+{
+    text-align: center;
+}
+
+h5
+{
+    text-align: right;
+}
+
+/* Best Hunters */
+
+.picture
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerHunters card-body
+{
+    display:row;
+}
+
+/* Tableau */
+table {
+    border: medium solid #000000;
+    width: 100%;
+}
+td, th {
+    border: thin solid #6495ed;
+    width: 50%;
+    text-align: center;
+}
+th
+{
+    background-color: grey;
+    color: white;
+}
